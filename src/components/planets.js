@@ -14,13 +14,14 @@ const People = () => {
   const renderPeople = () => {
     return people.map(p => {
       return (
-        < >
-          <Card fluid >
+        <>
+          <Card fluid>
             <Grid columns={5} divided>
               <Grid.Row>
-                <GridColumn>{p.name}
-                <br />
-                <br />
+                <GridColumn>
+                  {p.name}
+                  <br />
+                  <br />
                 </GridColumn>
                 <GridColumn>
                   climate:

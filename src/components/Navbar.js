@@ -5,18 +5,21 @@ import {Link} from 'react-router-dom'
 
 const Navbar = () => {
   return (
-    <Button.Group>
+    <div>
+
+    <Button.Group widths='2'>
       <Link to="/">
-      <Button>
+      <Button inverted color="blue" circular>
         Home
       </Button>
       </Link>
       <Link to="planets">
-      <Button>
+      <Button inverted color="brown" circular>
         Planets
       </Button>
       </Link>
     </Button.Group>
+    </div>
   )
 }
 
